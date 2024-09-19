@@ -177,4 +177,4 @@ for t in range(epochs):
 plt.plot(running_test_accuracy)
 
 print("\nSaving PyTorch Model State to artist_discriminator.pth")
-torch.save(model.state_dict(), "artist_driminator.pth")
+torch.save(model.state_dict(), "artist_discriminator.pth")

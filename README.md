@@ -1,3 +1,5 @@
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Version](https://img.shields.io/badge/version-0.8-orange)
 
 # Overview
 
@@ -7,15 +9,15 @@ The repository includes a carefully curated dataset, straightforward preprocessi
 
 ![Image Sample](/resources/sample_image.png)
 
-This repository includes:
-- model implementation
-- training scripts
-- jupyter notebook for visualization
-- dataset
-- performance dataset
+## Repository Contents
+- Model implementation
+- Training scripts
+- Jupyter notebook for visualization
+- Curated dataset
+- Performance data 
 
 
-**Table of Contents**
+## Table of Contents
 
 Introduction
 
@@ -43,36 +45,36 @@ The CNN architecture consists of several convolutional layers followed by poolin
 
 ## Key Features:
 
-    Convolutional Layers: Extracts features from comic images.
-    Pooling Layers: Reduces dimensionality while retaining important information.
-    Fully Connected Layers: Classifies the extracted features into the respective comic categories.
+- Convolutional Layers: Extracts features from comic images.
+- Pooling Layers: Reduces dimensionality while retaining important information.
+- Fully Connected Layers: Classifies the extracted features into the respective comic categories.
 
 # Dataset
 
 The dataset comprises a collection of drawings from both XKCD and Perry Bible Fellowship, sampled randomly from their respective archives. Each comic is labeled according to its source, allowing the model to learn the distinguishing features of each artist's style.
 
-    Total Images: 117
-    Traning: 907
-    Test Set: 110
+- Total Images: 117
+- Training: 907
+- Test Set: 110
 
 # Training Procedure
 
 The model is trained using a simple yet effective approach, achieving satisfactory performance in just a few epochs. This rapid training process is a testament to the model's efficiency and the quality of the dataset.
 
- **Hyperparameters**
-    Epochs: 7
-    Batch Size: 16
-    Optimizer: Stochastic Gradient Descent
-    Loss Function: Binary Cross-Entropy with Logits Loss
+## Hyperparameters
+- Epochs: 7
+- Batch Size: 16
+- Optimizer: Stochastic Gradient Descent
+- Loss Function: Binary Cross-Entropy with Logits Loss
 
-**Training Steps**
+## Training Steps
 
-    Load and preprocess the dataset.
-    Define the CNN architecture.
-    Compile the model with the chosen optimizer and loss function.
-    Train the model on the training set while validating on the validation set.
+1. Load and preprocess the dataset.
+2. Define the CNN architecture.
+3. Compile the model with the chosen optimizer and loss function.
+4. Train the model on the training set while validating on the validation set.
 
-**Results**
+# Results
 
 The model demonstrates solid performance in classifying the comic strips. Below are the performance metrics and visualizations of the results.
 Performance Metrics
@@ -99,9 +101,9 @@ Clone the repository:
 `git clone https://github.com/kratss/artist_discriminator`
 `cd [repository-directory]`
 
-Install the required dependencies: Available via pip, conda, and most distro repos:
+Install the required dependencies (available via pip, conda, and most distribution repositories):
 
-`matplotlib numpy pytorch`
+`install matplotlib numpy pytorch`
 
 Run the classification script:
 
