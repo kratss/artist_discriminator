@@ -18,12 +18,19 @@ This repository includes:
 **Table of Contents**
 
 Introduction
+
 Model Architecture
+
 Dataset
+
 Training Procedure
+
 Results
+
 Usage
+
 Contributing
+
 License
 
 # Introduction
@@ -108,6 +115,7 @@ Reproduce the model with provided data or your own dataset:
 - Receive trained model in working directory
 
 **Data Structure**
+```
  data
  └─ comics
     ├─ artist_1
@@ -116,7 +124,7 @@ Reproduce the model with provided data or your own dataset:
     └─ artist_2
        ├── img1.jpg
        └── img2.jpg
-
+```
 
 # Contributing
 Contributions are welcome! If you have suggestions for improvements or additional features, please open an issue or submit a pull request.
