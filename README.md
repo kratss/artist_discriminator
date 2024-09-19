@@ -13,9 +13,10 @@ This repository includes:
 
 # Overview
 
-This repository contains a Convolutional Neural Network (CNN) designed to classify comic strips drawn by Randall Munroe (XKCD) and the artist behind Perry Bible Fellowship. The model leverages deep learning techniques to achieve high accuracy in distinguishing between these two distinct comic styles.
+This repository contains a Convolutional Neural Network (CNN) designed to identify art drawn by Randall Munroe of XKCD and the Nicholas Gurewitch. The model leverages deep learning techniques to achieve high accuracy in distinguishing between these two distinct comic styles.
 
-Table of Contents
+
+**Table of Contents**
 
     Introduction
     Model Architecture
@@ -74,7 +75,7 @@ Performance Metrics
     Precision: [Insert precision value]
     Recall: [Insert recall value]
 
-Charts
+**Charts**
 
 Training Loss Chart
 Figure 1: Training Loss Over Epochs
@@ -92,11 +93,9 @@ bash
 git clone [repository-url]
 cd [repository-directory]
 
-Install the required dependencies:
+Install the required dependencies: Available via pip, conda, and most distro repos:
 
-bash
-
-pip install -r requirements.txt
+`matplotlib numpy pytorch`
 
 Run the classification script:
 
