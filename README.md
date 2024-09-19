@@ -99,7 +99,8 @@ To use the model for classifying new comic strips, follow these steps:
 Clone the repository:
 
 `git clone https://github.com/kratss/artist_discriminator`
-`cd [repository-directory]`
+
+`cd artist_discriminator`
 
 Install the required dependencies (available via pip, conda, and most distribution repositories):
 
@@ -134,4 +135,3 @@ Contributions are welcome! If you have suggestions for improvements or additiona
 # License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-This README provides a comprehensive overview of the comic classification CNN project, highlighting its efficiency and effectiveness in a professional manner.
