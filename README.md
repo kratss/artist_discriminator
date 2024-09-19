@@ -1,6 +1,11 @@
-The StyleClassifier is an efficient image classification framework designed to distinguish between the distinctive artistic styles of Randall Munroe, creator of XKCD, and Nicholas Gurewitch, known for Perry Bible Fellowship. This project employs a streamlined Convolutional Neural Network (CNN) architecture implemented in PyTorch, ensuring rapid training times and a compact model size without compromising classification performance.
 
-The repository includes a carefully curated dataset, straightforward preprocessing scripts, and user-friendly model training and evaluation pipelines. Comprehensive documentation is provided to facilitate reproducibility and encourage further exploration in the field of machine learning for art analysis. The StyleClassifier is an ideal resource for researchers and enthusiasts seeking a lightweight yet effective solution for style recognition in visual arts.
+# Overview
+
+This repository contains a Convolutional Neural Network (CNN) designed to identify art drawn by Randall Munroe of XKCD and the Nicholas Gurewitch. The model leverages deep learning techniques to achieve high accuracy in distinguishing between these two distinct comic styles.
+
+The repository includes a carefully curated dataset, straightforward preprocessing scripts, and user-friendly model training and evaluation pipelines. Comprehensive documentation is provided to facilitate reproducibility and encourage further exploration in the field of machine learning for art analysis
+
+![Image Sample](/resources/sample_image.png)
 
 This repository includes:
 - model implementation
@@ -9,23 +14,17 @@ This repository includes:
 - dataset
 - performance dataset
 
-![Image Sample](/resources/sample_image.png)
-
-# Overview
-
-This repository contains a Convolutional Neural Network (CNN) designed to identify art drawn by Randall Munroe of XKCD and the Nicholas Gurewitch. The model leverages deep learning techniques to achieve high accuracy in distinguishing between these two distinct comic styles.
-
 
 **Table of Contents**
 
-    Introduction
-    Model Architecture
-    Dataset
-    Training Procedure
-    Results
-    Usage
-    Contributing
-    License
+Introduction
+Model Architecture
+Dataset
+Training Procedure
+Results
+Usage
+Contributing
+License
 
 # Introduction
 
@@ -53,12 +52,13 @@ The dataset comprises a collection of drawings from both XKCD and Perry Bible Fe
 
 The model is trained using a simple yet effective approach, achieving satisfactory performance in just a few epochs. This rapid training process is a testament to the model's efficiency and the quality of the dataset.
 
+ **Hyperparameters**
     Epochs: 7
     Batch Size: 16
     Optimizer: Stochastic Gradient Descent
     Loss Function: Binary Cross-Entropy with Logits Loss
 
-**Training Steps:**
+**Training Steps**
 
     Load and preprocess the dataset.
     Define the CNN architecture.
@@ -82,16 +82,15 @@ Figure 1: Training Loss Over Epochs
 
 Validation Accuracy Chart
 Figure 2: Validation Accuracy Over Epochs
-Usage
+
+# Usage
 
 To use the model for classifying new comic strips, follow these steps:
 
-    Clone the repository:
+Clone the repository:
 
-bash
-
-git clone [repository-url]
-cd [repository-directory]
+`git clone https://github.com/kratss/artist_discriminator`
+`cd [repository-directory]`
 
 Install the required dependencies: Available via pip, conda, and most distro repos:
 
@@ -99,15 +98,30 @@ Install the required dependencies: Available via pip, conda, and most distro rep
 
 Run the classification script:
 
-bash
+`python classify_comic.py --image_path [path-to-comic-image]`
 
-    python classify_comic.py --image_path [path-to-comic-image]
+Reproduce the model with provided data or your own dataset:
 
-Contributing
+- Find the original dataset in ./data/ or provide a custom dataset
+- Point train.py to the location of your data
+- Run python train.py
+- Receive trained model in working directory
 
+**Data Structure**
+ data
+ └─ comics
+    ├─ artist_1
+    │  ├── img1.jpg
+    │  └── img2.jpg
+    └─ artist_2
+       ├── img1.jpg
+       └── img2.jpg
+
+
+# Contributing
 Contributions are welcome! If you have suggestions for improvements or additional features, please open an issue or submit a pull request.
-License
 
+# License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 This README provides a comprehensive overview of the comic classification CNN project, highlighting its efficiency and effectiveness in a professional manner.
