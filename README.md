@@ -9,8 +9,9 @@ The repository includes a carefully curated dataset, straightforward preprocessi
 
 ![Image Sample](/resources/sample_image.png)
 
-[confidence_1](resources/confidence_1.png)
-[confidence_2](resources/confidence_2.png)
+[confidence_1](/resources/confidence_1.png)
+
+[confidence_2](/resources/confidence_2.png)
 
 ## Repository Contents
 - Trained model
