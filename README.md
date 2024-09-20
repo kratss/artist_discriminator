@@ -11,6 +11,7 @@ The repository includes a carefully curated dataset, straightforward preprocessi
 
 <img src="/resources/confidence_1.png" alt="confidence_1" width="320"/>
 <img src="/resources/confidence_2.png" alt="confidence_2" width="320"/>
+
 ## Repository Contents
 - Trained model
 - Training script
