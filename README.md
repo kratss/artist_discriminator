@@ -82,16 +82,13 @@ The model demonstrates solid performance in classifying the comic strips. Below 
 
     Accuracy: 87%
     Loss: 0.01937
-    Precision: [Insert precision value]
-    Recall: [Insert recall value]
 
 ## Visualization 
 
-Training Loss Chart
-Figure 1: Training Loss Over Epochs
 
+[validation chart](resources/performance_testaccuracy_2.png)
 Validation Accuracy Chart
-Figure 2: Validation Accuracy Over Epochs
+Figure 1: Validation Accuracy Over Epochs
 
 # Usage
 
