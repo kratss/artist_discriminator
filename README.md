@@ -9,31 +9,26 @@ The repository includes a carefully curated dataset, straightforward preprocessi
 
 ![Image Sample](/resources/sample_image.png)
 
+[confidence_1](resources/confidence_1.png)
+[confidence_2](resources/confidence_2.png)
+
 ## Repository Contents
-- Model implementation
-- Training scripts
+- Trained model
+- Training script
+- Classification script
 - Jupyter notebook for visualization
 - Curated dataset
-- Performance data 
 
 
 ## Table of Contents
-
-Introduction
-
-Model Architecture
-
-Dataset
-
-Training Procedure
-
-Results
-
-Usage
-
-Contributing
-
-License
+- Introduction
+- Model Architecture
+- Dataset
+- Training Procedure
+- Results
+- Usage
+- Contributing
+- License
 
 # Introduction
 
@@ -41,7 +36,7 @@ Comic strips are a unique form of artistic expression, each with its own style a
 
 # Model Architecture
 
-The CNN architecture consists of several convolutional layers followed by pooling layers, culminating in fully connected layers for classification. The model is designed to be lightweight and efficient, allowing for rapid training and inference.
+The CNN architecture consists of two convolutional layers and pooling layers, followed by fully connected layers for classification. The model is designed to be lightweight and efficient, allowing for rapid training and inference.
 
 ## Key Features:
 
@@ -105,17 +100,16 @@ Install the required dependencies (available via pip, conda, and most distributi
 `install matplotlib numpy pytorch`
 
 Run the classification script:
-
-`python classify_comic.py --image_path [path-to-comic-image]`
+- Place your folder of images in ./images or use the provided images
+- Run `python classify.py`
 
 Reproduce the model with provided data or your own dataset:
 
-- Find the original dataset in ./data/ or provide a custom dataset
-- Point train.py to the location of your data
-- Run python train.py
+- Find the original dataset in ./data/ or provide a custom dataset in ./data
+- Run `python train.py`
 - Receive trained model in working directory
 
-**Data Structure**
+Data Structure
 ```
  data
  └─ comics
