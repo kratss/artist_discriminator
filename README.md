@@ -77,14 +77,15 @@ The model is trained using a simple yet effective approach, achieving satisfacto
 # Results
 
 The model demonstrates solid performance in classifying the comic strips. Below are the performance metrics and visualizations of the results.
-Performance Metrics
+
+## Performance Metrics
 
     Accuracy: 87%
     Loss: 0.01937
     Precision: [Insert precision value]
     Recall: [Insert recall value]
 
-**Charts**
+## Visualization 
 
 Training Loss Chart
 Figure 1: Training Loss Over Epochs
