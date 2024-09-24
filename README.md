@@ -48,7 +48,7 @@ The CNN architecture consists of two convolutional layers and pooling layers, fo
 
 The dataset comprises a collection of drawings from both XKCD and Perry Bible Fellowship, sampled randomly from their respective archives. Each comic is labeled according to its source, allowing the model to learn the distinguishing features of each artist's style.
 
-- Total Images: 117
+- Total Images: 1017
 - Training: 907
 - Test Set: 110
 
