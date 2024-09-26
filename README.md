@@ -81,9 +81,9 @@ The model demonstrates solid performance in classifying the comic strips. Below 
 ## Visualization 
 
 
-[validation chart](resources/performance_testaccuracy_2.png)
-Validation Accuracy Chart
-Figure 1: Validation Accuracy Over Epochs
+![Test chart](resources/performance_testaccuracy_2.png)
+Accuracy Chart
+Figure 1: Test Accuracy Over Epochs
 
 # Usage
 
