@@ -3,7 +3,7 @@
 
 # Overview
 
-This repository contains a Convolutional Neural Network (CNN) designed to identify art drawn by Randall Munroe of XKCD and the Nicholas Gurewitch. The model leverages deep learning techniques to achieve high accuracy in distinguishing between these two distinct comic styles.
+This repository contains a Convolutional Neural Network (CNN) designed to identify art drawn by Randall Munroe and Nicholas Gurewitch. The model leverages deep learning techniques to achieve high accuracy in distinguishing between these two distinct comic styles.
 
 The repository includes a carefully curated dataset, straightforward preprocessing scripts, and user-friendly model training and evaluation pipelines. Comprehensive documentation is provided to facilitate reproducibility and encourage further exploration in the field of machine learning for art analysis
 
